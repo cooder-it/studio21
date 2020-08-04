@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 
 export const pageQuery = graphql`
 query MyQuery($slug: String!) {
@@ -17,6 +17,7 @@ const project_page = (props) => {
         <div>
             <p>{props.data.markdownRemark.frontmatter.title}</p>
             <p>Zawartość</p>
+            <Link to="/">wróc</Link>
         </div>
     )
 }
