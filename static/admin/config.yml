@@ -1,0 +1,16 @@
+backend:
+  name: github
+  repo: codeer/gatsby-netlify-cms-example #replace with your username/repo
+
+media_folder: static/assets
+
+collections:
+  - name: projects
+    label: Projekty
+    folder: projects
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
