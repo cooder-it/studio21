@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: codeer-it/studio21 #replace with your username/repo
+  repo: cooder-it/studio21 #replace with your username/repo
 
 media_folder: static/assets
 
